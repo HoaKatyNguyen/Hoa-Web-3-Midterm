@@ -2,11 +2,84 @@
     Base
 ============= */
 
+.logo-box{
+    background-color: #765FD4;
+}
+
+.logo{
+    width: 133px;
+    height: 59px;
+}
+
 .biggest-image{
-    width:100%;
+    width: 100%;
+}
+
+.search-icon{
+    width: 43px;
+    height: 34px;
 }
 
 .container{
     display:grid;
     grid-template-columns:15px auto 15px;
+    grid-template-areas: ". content ." ;
+}
+
+.content{
+    grid-area: content;
+}
+
+.spring-box{
+    background-color: #FF8CB6;
+}
+
+.header1{
+    color: black;
+    font-size: 18px;
+}
+
+.p1{
+    color: black;
+    font-size: 16px;
+}
+
+.easter-box{
+    background-color: #FFB6D9;
+}
+
+.tiny-img{
+    width: 77.48px;
+    height: 77.48px;
+}
+
+.blue-box{
+    background-color: #E2E5FF;
+}
+
+.blue-header{
+    color: black;
+    font-size: 25px;
+}
+
+.footer-background{
+    background-color: #765FD4;
+}
+
+.article-img{
+    width: 100%;
+}
+
+.button-box{
+    background-color: #FFB6D9;
+}
+
+.arrow-icon{
+    width: 70px;
+    height: 70px;
+}
+
+.phone-icon{
+    width: 16px;
+    height: 25.6px;
 }
