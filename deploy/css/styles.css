@@ -395,13 +395,17 @@ template {
 }
 
 .arrow-icon {
-  width: 70px;
-  height: 70px;
+  width: 35px;
+  height: 35px;
 }
 
 .phone-icon {
-  width: 16px;
-  height: 25.6px;
+  width: 26px;
+  height: 35.6px;
+}
+
+.white-text {
+  color: white;
 }
 
 /* =============
