@@ -1,3 +1,9 @@
 /* =============
-    Typography
+    pink-banner
 ============= */
+
+@include md{
+    body{
+        background-color: red;
+    }
+}

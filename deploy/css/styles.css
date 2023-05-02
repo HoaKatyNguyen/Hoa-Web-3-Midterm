@@ -408,9 +408,28 @@ template {
   color: white;
 }
 
+@media (min-width: 768px) {
+  body {
+    background-color: plum;
+  }
+}
 /* =============
     Typography
 ============= */
+.header1 {
+  color: black;
+  font-size: 18px;
+}
+
+.p1 {
+  color: black;
+  font-size: 16px;
+}
+
+.white-text {
+  color: white;
+}
+
 /* =============
     Buttons
 ============= */
@@ -438,6 +457,32 @@ textarea {
 /* =============
     Header
 ============= */
+.logo-box {
+  background-color: #765FD4;
+}
+
+.logo {
+  width: 133px;
+  height: 59px;
+}
+
+.biggest-image {
+  width: 100%;
+}
+
+.search-icon {
+  width: 43px;
+  height: 34px;
+}
+
 /* =============
     Footer
 ============= */
+/* =============
+    pink-banner
+============= */
+@media (min-width: 768px) {
+  body {
+    background-color: red;
+  }
+}

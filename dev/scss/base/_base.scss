@@ -87,3 +87,9 @@
 .white-text{
     color:white;
 }
+
+@include md{
+    body{
+        background-color: plum;
+    }
+}
