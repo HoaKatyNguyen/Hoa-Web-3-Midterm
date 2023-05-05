@@ -2,8 +2,21 @@
     pink-banner
 ============= */
 
-@include md{
-    body{
-        background-color: red;
+.pink-banner{
+    @include md{
+            .pink-container{
+                display: grid;
+                grid-template-columns:40% 60%;
+                grid-template-areas:
+                    "spring-box easter-box";
+            }
+
+            .spring-box{
+                grid-area: content;
+            }
+
+            .easter-box{
+                grid-area: content;
+            }
     }
 }

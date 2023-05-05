@@ -2,24 +2,6 @@
     Base
 ============= */
 
-.logo-box{
-    background-color: #765FD4;
-}
-
-.logo{
-    width: 133px;
-    height: 59px;
-}
-
-.biggest-image{
-    width: 100%;
-}
-
-.search-icon{
-    width: 43px;
-    height: 34px;
-}
-
 .container{
     display:grid;
     grid-template-columns:15px auto 15px;
@@ -32,16 +14,6 @@
 
 .spring-box{
     background-color: #FF8CB6;
-}
-
-.header1{
-    color: black;
-    font-size: 18px;
-}
-
-.p1{
-    color: black;
-    font-size: 16px;
 }
 
 .easter-box{
@@ -84,9 +56,7 @@
     height: 35.6px;
 }
 
-.white-text{
-    color:white;
-}
+
 
 @include md{
     body{

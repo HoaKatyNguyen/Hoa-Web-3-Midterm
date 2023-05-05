@@ -322,24 +322,6 @@ template {
 /* =============
     Base
 ============= */
-.logo-box {
-  background-color: #765FD4;
-}
-
-.logo {
-  width: 133px;
-  height: 59px;
-}
-
-.biggest-image {
-  width: 100%;
-}
-
-.search-icon {
-  width: 43px;
-  height: 34px;
-}
-
 .container {
   display: grid;
   grid-template-columns: 15px auto 15px;
@@ -352,16 +334,6 @@ template {
 
 .spring-box {
   background-color: #FF8CB6;
-}
-
-.header1 {
-  color: black;
-  font-size: 18px;
-}
-
-.p1 {
-  color: black;
-  font-size: 16px;
 }
 
 .easter-box {
@@ -402,10 +374,6 @@ template {
 .phone-icon {
   width: 26px;
   height: 35.6px;
-}
-
-.white-text {
-  color: white;
 }
 
 @media (min-width: 768px) {
@@ -482,7 +450,32 @@ textarea {
     pink-banner
 ============= */
 @media (min-width: 768px) {
-  body {
-    background-color: red;
+  .pink-banner .pink-container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-areas: "spring-box easter-box";
+  }
+  .pink-banner .spring-box {
+    grid-area: content;
+  }
+  .pink-banner .easter-box {
+    grid-area: content;
+  }
+}
+
+/* =============
+    blue-extras
+============= */
+@media (min-width: 768px) {
+  .blue-extras .blue-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "box1 box2";
+  }
+  .blue-extras .box1 {
+    grid-area: content;
+  }
+  .blue-extras .box2 {
+    grid-area: content;
   }
 }
