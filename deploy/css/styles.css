@@ -453,7 +453,7 @@ textarea {
   .pink-banner .pink-container {
     display: grid;
     grid-template-columns: 40% 60%;
-    grid-template-areas: "spring-box easter-box";
+    grid-template-areas: "easter-box spring-box";
   }
   .pink-banner .spring-box {
     grid-area: content;
