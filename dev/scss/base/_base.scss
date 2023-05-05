@@ -42,8 +42,14 @@
     background-color: #765FD4;
 }
 
-.article-img{
+.biggest-imgage{
     width: 100%;
+}
+
+.article-img{
+    width: 320px;
+    height: 163px;
+    object-fit: cover;
 }
 
 .button-box{

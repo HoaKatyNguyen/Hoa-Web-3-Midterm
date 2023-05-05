@@ -11,4 +11,13 @@
                     "easter-box spring-box";
             }
     }
+
+    @include lg{
+        .pink-container{
+            display: grid;
+            grid-template-columns:50% 50%;
+            grid-template-areas:
+                "easter-box spring-box";
+        }
+    }
 }

@@ -1,0 +1,28 @@
+/* =============
+    five-articles
+============= */
+
+.five-articles{
+    @include md{
+        .article-con{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 433px 433px 433px;
+            grid-template-areas:
+                "lavender vintage"
+                "japan family"
+                "gallery gallery";
+        }
+    }
+
+    @include lg{
+        .article-con{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 433px 433px;
+            grid-template-areas:
+                "lavender vintage japan "
+                "family gallery";
+        }
+    }
+}
