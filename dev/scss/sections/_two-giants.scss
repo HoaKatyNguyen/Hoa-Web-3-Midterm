@@ -1,0 +1,18 @@
+/* =============
+    two-giants
+============= */
+
+.two-giants{
+    @include md{
+        .container{
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-areas: 
+                "img-one img-two";
+        }
+
+        .img-one{
+            height: 575px;
+        }
+    }
+}

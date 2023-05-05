@@ -10,13 +10,5 @@
                 grid-template-areas:
                     "easter-box spring-box";
             }
-
-            .spring-box{
-                grid-area: content;
-            }
-
-            .easter-box{
-                grid-area: content;
-            }
     }
 }
