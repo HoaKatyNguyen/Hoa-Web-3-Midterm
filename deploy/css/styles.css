@@ -386,11 +386,6 @@ template {
   height: 35.6px;
 }
 
-@media (min-width: 768px) {
-  body {
-    background-color: plum;
-  }
-}
 /* =============
     Typography
 ============= */
@@ -498,6 +493,32 @@ textarea {
     grid-template-columns: 50% 50%;
     grid-template-areas: "blue-one blue-two";
   }
+  .blue-extras .blue-one {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 8px;
+  }
+  .blue-extras .blue-two {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 8px;
+    margin-right: 16px;
+  }
+  .blue-extras .content {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+@media (min-width: 992px) {
+  .blue-extras .blue-one {
+    margin: 16px 44px 16px 8px;
+  }
+  .blue-extras .blue-one {
+    margin: 16px 8px 16px 44px;
+  }
 }
 
 /* =============
@@ -527,12 +548,14 @@ textarea {
     grid-template-areas: "img-one img-two";
   }
   .two-giants .img-one {
+    margin: 16px 0px 16px 44px;
     width: 593px;
     height: 594px;
     object-fit: cover;
   }
   .two-giants .img-two {
-    width: 440px;
+    margin: 16px 44px 16px 0px;
+    width: 430px;
     height: 594px;
     object-fit: cover;
   }
@@ -541,12 +564,27 @@ textarea {
 /* =============
     five-articles
 ============= */
+.five-articles .lavender {
+  padding: 16px 16px 16px 16px;
+}
+.five-articles .vintage {
+  padding: 16px 16px 16px 16px;
+}
+.five-articles .japan {
+  padding: 16px 16px 16px 16px;
+}
+.five-articles .family {
+  padding: 16px 16px 16px 16px;
+}
+.five-articles .gallery {
+  padding: 16px 16px 16px 16px;
+}
 @media (min-width: 768px) {
   .five-articles .article-con {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 433px 433px 433px;
-    grid-template-areas: "lavender vintage" "japan family" "gallery gallery";
+    grid-template-areas: "lavender vintage" "japan family" "gallery";
   }
 }
 @media (min-width: 992px) {

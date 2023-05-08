@@ -3,6 +3,27 @@
 ============= */
 
 .five-articles{
+
+        .lavender{
+            padding: 16px 16px 16px 16px;
+        }
+
+        .vintage{
+            padding: 16px 16px 16px 16px;
+        }
+
+        .japan{
+            padding: 16px 16px 16px 16px;
+        }
+
+        .family{
+            padding: 16px 16px 16px 16px;
+        }
+
+        .gallery{
+            padding: 16px 16px 16px 16px;
+        }
+
     @include md{
         .article-con{
             display: grid;
@@ -11,7 +32,7 @@
             grid-template-areas:
                 "lavender vintage"
                 "japan family"
-                "gallery gallery";
+                "gallery";
         }
     }
 
