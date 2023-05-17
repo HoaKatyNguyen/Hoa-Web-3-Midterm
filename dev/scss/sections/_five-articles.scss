@@ -34,6 +34,10 @@
                 "japan family"
                 "gallery";
         }
+
+        .article-head{
+            font-size: 28px;
+        }
     }
 
     @include lg{
@@ -44,6 +48,10 @@
             grid-template-areas:
                 "lavender vintage japan "
                 "family gallery";
+        }
+
+        .article-head{
+            font-size: 26px;
         }
     }
 }

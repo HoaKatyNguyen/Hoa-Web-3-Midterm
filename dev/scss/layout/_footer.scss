@@ -10,6 +10,10 @@
             grid-template-areas: 
                 "locations sign-in";
         }
+
+        .sm-text{
+            font-size: 14px;
+        }
     }
 
     @include lg{
@@ -18,6 +22,10 @@
             grid-template-columns:1fr 1fr 1fr;
             grid-template-areas: 
                 "locations sign-in follow";
+        }
+
+        .sm-text{
+            font-size: 14px;
         }
     }
 }

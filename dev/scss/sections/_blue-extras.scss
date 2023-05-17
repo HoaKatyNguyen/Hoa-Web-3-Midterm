@@ -32,6 +32,10 @@
             padding-right: 16px;
         }
 
+        .blue-header{
+            font-size: 28px;
+        }
+
     }
 
     @include lg{
@@ -41,6 +45,10 @@
 
         .blue-one{
             margin:16px 8px 16px 44px;
+        }
+
+        .blue-header{
+            font-size: 28px;
         }
     }
 

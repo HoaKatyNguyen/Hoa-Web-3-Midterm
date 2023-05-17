@@ -353,11 +353,6 @@ template {
   background-color: #E2E5FF;
 }
 
-.blue-header {
-  color: black;
-  font-size: 25px;
-}
-
 .footer-background {
   background-color: #765FD4;
 }
@@ -374,6 +369,7 @@ template {
 
 .button-box {
   background-color: #FFB6D9;
+  padding: 8px 8px 8px 8px;
 }
 
 .arrow-icon {
@@ -389,6 +385,15 @@ template {
 /* =============
     Typography
 ============= */
+body {
+  font-family: "Playfair Display", serif;
+}
+
+.what-new {
+  color: gray;
+  font-size: 20px;
+}
+
 .header1 {
   color: black;
   font-size: 18px;
@@ -399,8 +404,33 @@ template {
   font-size: 16px;
 }
 
+.blue-header {
+  color: black;
+  font-size: 23px;
+}
+
+.button-box {
+  font-size: 14px;
+}
+
+.article-head {
+  font-size: 25px;
+}
+
 .white-text {
   color: white;
+}
+
+.big-text {
+  font-size: 23px;
+}
+
+.mid-text {
+  font-size: 16px;
+}
+
+.sm-text {
+  font-size: 12px;
 }
 
 /* =============
@@ -457,12 +487,18 @@ textarea {
     grid-template-columns: 50% 50%;
     grid-template-areas: "locations sign-in";
   }
+  .footer-background .sm-text {
+    font-size: 14px;
+  }
 }
 @media (min-width: 992px) {
   .footer-background .footer-con {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: "locations sign-in follow";
+  }
+  .footer-background .sm-text {
+    font-size: 14px;
   }
 }
 
@@ -475,12 +511,21 @@ textarea {
     grid-template-columns: 40% 60%;
     grid-template-areas: "easter-box spring-box";
   }
+  .pink-banner .header1 {
+    font-size: 20px;
+  }
 }
 @media (min-width: 992px) {
   .pink-banner .pink-container {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-areas: "easter-box spring-box";
+  }
+  .pink-banner .header1 {
+    font-size: 23px;
+  }
+  .pink-banner .p1 {
+    font-size: 20px;
   }
 }
 
@@ -511,6 +556,9 @@ textarea {
     padding-left: 16px;
     padding-right: 16px;
   }
+  .blue-extras .blue-header {
+    font-size: 28px;
+  }
 }
 @media (min-width: 992px) {
   .blue-extras .blue-one {
@@ -518,6 +566,9 @@ textarea {
   }
   .blue-extras .blue-one {
     margin: 16px 8px 16px 44px;
+  }
+  .blue-extras .blue-header {
+    font-size: 28px;
   }
 }
 
@@ -586,6 +637,9 @@ textarea {
     grid-template-rows: 433px 433px 433px;
     grid-template-areas: "lavender vintage" "japan family" "gallery";
   }
+  .five-articles .article-head {
+    font-size: 28px;
+  }
 }
 @media (min-width: 992px) {
   .five-articles .article-con {
@@ -593,5 +647,8 @@ textarea {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 433px 433px;
     grid-template-areas: "lavender vintage japan " "family gallery";
+  }
+  .five-articles .article-head {
+    font-size: 26px;
   }
 }
