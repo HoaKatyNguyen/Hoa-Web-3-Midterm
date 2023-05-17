@@ -12,18 +12,23 @@ body{
 }
 
 
+a{
+    color: black
+}
+
+a:hover{
+    background-color: #765FD4;
+}
+
 .header1{
-    color: black;
     font-size: 18px;
 }
 
 .p1{
-    color: black;
     font-size: 16px;
 }
 
 .blue-header{
-    color: black;
     font-size: 23px;
 }
 

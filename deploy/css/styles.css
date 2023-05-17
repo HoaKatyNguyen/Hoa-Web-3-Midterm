@@ -394,18 +394,23 @@ body {
   font-size: 20px;
 }
 
-.header1 {
+a {
   color: black;
+}
+
+a:hover {
+  background-color: #765FD4;
+}
+
+.header1 {
   font-size: 18px;
 }
 
 .p1 {
-  color: black;
   font-size: 16px;
 }
 
 .blue-header {
-  color: black;
   font-size: 23px;
 }
 
